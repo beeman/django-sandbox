@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
+    'debug_toolbar',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -52,6 +53,7 @@ ROOT_URLCONF = 'sandbox.urls'
 
 WSGI_APPLICATION = 'sandbox.wsgi.application'
 
+INTERNAL_IPS = ('127.0.0.1',)
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
